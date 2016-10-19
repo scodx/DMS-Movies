@@ -64,6 +64,10 @@ class Favorites
     }
 
 
+    public function addFavorite($id)
+    {
+        return $this->getDb()->insert("movies", array("imdbID" => $id));
+    }
 
 
 }

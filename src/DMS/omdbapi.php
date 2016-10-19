@@ -57,7 +57,7 @@ class omdbapi
     public function search($title)
     {
 
-        return $this->jsonRequest("?t={$title}&y=&plot=short&r=json&type=movie");
+        return $this->jsonRequest("?s={$title}&y=&plot=short&r=json&type=movie");
 
     }
 
