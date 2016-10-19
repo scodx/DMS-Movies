@@ -37,7 +37,7 @@ class Favorites
      */
     public function getFavorites()
     {
-        return $this->favorites;
+        return $this->getDb()->findAll("movies");
     }
 
     /**
