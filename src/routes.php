@@ -1,11 +1,11 @@
 <?php
 // Routes
 
+/**
+ * Web App router
+ */
+$app->get('/', function ($request, $response, $args) {
 
-
-$app->get('/[{name}]', function ($request, $response, $args) {
-    // Sample log message
-    $this->logger->info("Slim-Skeleton '/' route");
 
     // Render index view
     return $this->renderer->render($response, 'index.phtml', $args);
@@ -38,9 +38,9 @@ $app->get('/api/search/{title}', function ($request, $response, $args) {
  */
 $app->get('/api/favorites/', function ($request, $response, $args) {
 
-    
+    $favorites = new \DMS\Favorites($this->db);
 
-    $data = $benchmark->run(10);
+    $data = $favorites->getFavorites();
 
     return $response->withJson($data, 200);
 

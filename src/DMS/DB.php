@@ -46,7 +46,7 @@ class DB
 //        ];
 
         try {
-            $this->pdo = new PDO(
+            $this->pdo = new \PDO(
                 "mysql:host={$config["host"]};dbname={$config["database"]};port={$config["port"]}",
                 $config["username"],
                 $config["password"]
@@ -109,7 +109,7 @@ class DB
             return $this->debug($cursor, $params);
         }
 
-        $fetch_mode = PDO::FETCH_ASSOC;
+        $fetch_mode = \PDO::FETCH_ASSOC;
         $ret = FALSE;
 
         switch ($result) {
