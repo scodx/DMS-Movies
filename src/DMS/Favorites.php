@@ -37,7 +37,12 @@ class Favorites
      */
     public function getFavorites()
     {
-        return $this->getDb()->findAll("movies");
+        $omdb = new omdbapi();
+        $favorites = array();
+        foreach ($this->getDb()->findAll("movies") as $fav) {
+            $favorites[] = $omdb->getById($fav["imdbID"]);
+        };
+        return $favorites;
     }
 
     /**
@@ -55,6 +60,7 @@ class Favorites
     public function __construct(DB $db)
     {
         $this->setDb($db);
+        return $this;
     }
 
 

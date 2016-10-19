@@ -6,9 +6,12 @@
  */
 $app->get('/', function ($request, $response, $args) {
 
+    $favorites = new \DMS\Favorites($this->db);
+
+    $favs = $favorites->getFavorites();
 
     // Render index view
-    return $this->renderer->render($response, 'index.phtml', $args);
+    return $this->renderer->render($response, 'index.phtml', array("favorites" => $favs));
 });
 
 
@@ -21,7 +24,7 @@ $app->get('/', function ($request, $response, $args) {
  */
 $app->get('/api/search/{title}', function ($request, $response, $args) {
 
-    $title         = $args["title"];
+    $title = $args["title"];
 
     $omdb = new \DMS\omdbapi();
 

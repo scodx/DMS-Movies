@@ -41,20 +41,29 @@ class omdbapi
 
     }
 
-    public function search($title)
-    {
 
+    private function jsonRequest($url)
+    {
         $request = $this->getClient()->get(
-            "?t={$title}&y=&plot=short&r=json&type=movie",
+            $url,
             array(
-//                'User-Agent'    => Config::getUserAgent(),
-                'Accept'        => 'application/json',
+                'Accept' => 'application/json',
             )
         );
 
         return json_decode( $request->getBody(), true );
+    }
 
+    public function search($title)
+    {
 
+        return $this->jsonRequest("?t={$title}&y=&plot=short&r=json&type=movie");
+
+    }
+
+    public function getById($id)
+    {
+        return $this->jsonRequest("?i={$id}&plot=short&r=json");
     }
 
 }

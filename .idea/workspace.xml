@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99778c91-893c-40a2-8b87-54949431beaa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DMS/DB.php" afterPath="$PROJECT_DIR$/src/DMS/DB.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DMS/Favorites.php" afterPath="$PROJECT_DIR$/src/DMS/Favorites.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DMS/omdbapi.php" afterPath="$PROJECT_DIR$/src/DMS/omdbapi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes.php" afterPath="$PROJECT_DIR$/src/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.phtml" afterPath="$PROJECT_DIR$/templates/index.phtml" />
     </list>
@@ -35,9 +34,8 @@
             <state vertical-scroll-proportion="-16.32258">
               <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
-                <element signature="e#612#998#1#PHP" expanded="true" />
-                <element signature="e#647#995#1#PHP" expanded="true" />
-                <element signature="e#1022#1114#1#PHP" expanded="true" />
+                <element signature="e#106#239#1#PHP" expanded="false" />
+                <element signature="e#276#579#1#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -46,7 +44,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-12.4838705">
               <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding />
             </state>
@@ -56,12 +54,11 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.8387096">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state vertical-scroll-proportion="-7.806452">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
-                <element signature="e#58#195#1#PHP" expanded="true" />
-                <element signature="e#352#546#1#PHP" expanded="true" />
-                <element signature="e#632#809#1#PHP" expanded="true" />
+                <element signature="e#463#649#1#PHP" expanded="true" />
+                <element signature="e#735#912#1#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,8 +67,8 @@
       <file leaf-file-name="index.phtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60619974">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.22732492">
+              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -90,14 +87,13 @@
       <file leaf-file-name="Favorites.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DMS/Favorites.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4193548">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            <state vertical-scroll-proportion="-20.290323">
+              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
               <folding>
                 <element signature="e#277#338#0#PHP" expanded="true" />
                 <element signature="e#385#448#0#PHP" expanded="true" />
-                <element signature="e#491#583#0#PHP" expanded="true" />
-                <element signature="e#636#727#0#PHP" expanded="true" />
-                <element signature="e#780#854#0#PHP" expanded="true" />
+                <element signature="e#491#753#0#PHP" expanded="true" />
+                <element signature="e#806#897#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,13 +102,14 @@
       <file leaf-file-name="omdbapi.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DMS/omdbapi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.354838">
-              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+            <state vertical-scroll-proportion="-42.580647">
+              <caret line="65" column="64" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
               <folding>
                 <element signature="e#207#276#0#PHP" expanded="true" />
                 <element signature="e#326#405#0#PHP" expanded="true" />
                 <element signature="e#411#596#0#PHP" expanded="true" />
-                <element signature="e#602#968#0#PHP" expanded="true" />
+                <element signature="e#603#861#0#PHP" expanded="true" />
+                <element signature="e#867#993#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,12 +176,12 @@
         <option value="$PROJECT_DIR$/src/settings.php" />
         <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/src/dependencies.php" />
-        <option value="$PROJECT_DIR$/src/DMS/Favorites.php" />
-        <option value="$PROJECT_DIR$/src/DMS/omdbapi.php" />
         <option value="$PROJECT_DIR$/src/DMS/DB.php" />
-        <option value="$PROJECT_DIR$/src/routes.php" />
         <option value="$PROJECT_DIR$/public/js/bootstrap.min.js" />
         <option value="$PROJECT_DIR$/public/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/src/DMS/omdbapi.php" />
+        <option value="$PROJECT_DIR$/src/DMS/Favorites.php" />
+        <option value="$PROJECT_DIR$/src/routes.php" />
         <option value="$PROJECT_DIR$/templates/index.phtml" />
       </list>
     </option>
@@ -453,9 +450,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <element signature="e#612#998#1#PHP" expanded="true" />
-            <element signature="e#647#995#1#PHP" expanded="true" />
-            <element signature="e#1022#1114#1#PHP" expanded="true" />
+            <element signature="e#106#239#1#PHP" expanded="false" />
+            <element signature="e#276#579#1#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -473,9 +469,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#58#195#1#PHP" expanded="true" />
-            <element signature="e#352#546#1#PHP" expanded="true" />
-            <element signature="e#632#809#1#PHP" expanded="true" />
+            <element signature="e#463#649#1#PHP" expanded="true" />
+            <element signature="e#735#912#1#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -488,7 +483,8 @@
             <element signature="e#207#276#0#PHP" expanded="true" />
             <element signature="e#326#405#0#PHP" expanded="true" />
             <element signature="e#411#596#0#PHP" expanded="true" />
-            <element signature="e#602#968#0#PHP" expanded="true" />
+            <element signature="e#603#861#0#PHP" expanded="true" />
+            <element signature="e#867#993#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -508,9 +504,8 @@
           <folding>
             <element signature="e#277#338#0#PHP" expanded="true" />
             <element signature="e#385#448#0#PHP" expanded="true" />
-            <element signature="e#491#583#0#PHP" expanded="true" />
-            <element signature="e#636#727#0#PHP" expanded="true" />
-            <element signature="e#780#854#0#PHP" expanded="true" />
+            <element signature="e#491#753#0#PHP" expanded="true" />
+            <element signature="e#806#897#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -552,22 +547,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dependencies.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.32258">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
-            <element signature="e#612#998#1#PHP" expanded="true" />
-            <element signature="e#647#995#1#PHP" expanded="true" />
-            <element signature="e#1022#1114#1#PHP" expanded="true" />
+            <element signature="e#106#239#1#PHP" expanded="false" />
+            <element signature="e#276#579#1#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -617,45 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DMS/omdbapi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.354838">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="e#207#276#0#PHP" expanded="true" />
-            <element signature="e#326#405#0#PHP" expanded="true" />
-            <element signature="e#411#596#0#PHP" expanded="true" />
-            <element signature="e#602#968#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8387096">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="e#58#195#1#PHP" expanded="true" />
-            <element signature="e#352#546#1#PHP" expanded="true" />
-            <element signature="e#632#809#1#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DMS/Favorites.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4193548">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding>
-            <element signature="e#277#338#0#PHP" expanded="true" />
-            <element signature="e#385#448#0#PHP" expanded="true" />
-            <element signature="e#491#583#0#PHP" expanded="true" />
-            <element signature="e#636#727#0#PHP" expanded="true" />
-            <element signature="e#780#854#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12195122">
@@ -672,10 +619,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.4838705">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DMS/omdbapi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-42.580647">
+          <caret line="65" column="64" selection-start-line="65" selection-start-column="64" selection-end-line="65" selection-end-column="64" />
+          <folding>
+            <element signature="e#207#276#0#PHP" expanded="true" />
+            <element signature="e#326#405#0#PHP" expanded="true" />
+            <element signature="e#411#596#0#PHP" expanded="true" />
+            <element signature="e#603#861#0#PHP" expanded="true" />
+            <element signature="e#867#993#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DMS/Favorites.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.290323">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+          <folding>
+            <element signature="e#277#338#0#PHP" expanded="true" />
+            <element signature="e#385#448#0#PHP" expanded="true" />
+            <element signature="e#491#753#0#PHP" expanded="true" />
+            <element signature="e#806#897#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.806452">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#463#649#1#PHP" expanded="true" />
+            <element signature="e#735#912#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60619974">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.22732492">
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
           <folding />
         </state>
       </provider>
