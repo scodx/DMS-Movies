@@ -15,5 +15,17 @@ return [
             'path' => __DIR__ . '/../logs/app.log',
             'level' => \Monolog\Logger::DEBUG,
         ],
+
+        /**
+         * DB parameters
+         */
+        'db_config' => [
+            'host'  => 'localhost',
+            'username' => 'root',
+            'password' => 'root',
+            'database' => 'dms',
+            'port' => '5432'    // defaults to 3306, change if applicable
+        ],
+
     ],
 ];

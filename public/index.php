@@ -1,4 +1,5 @@
 <?php
+
 if (PHP_SAPI == 'cli-server') {
     // To help the built-in PHP dev server, check if the request was actually for
     // something which should probably be served as a static file
@@ -18,17 +19,8 @@ $settings = require __DIR__ . '/../src/settings.php';
 
 // Creating custom error handler
 $container = new \Slim\Container($settings);
-$container['errorHandler'] = function ($container) {
-    return function ($request, $response, $exception) use ($container) {
-        //Format of exception to return
-        $data = [
-            'message' => $exception->getMessage()
-        ];
-        return $container->get('response')->withStatus(500)
-            ->withHeader('Content-Type', 'application/json')
-            ->write(json_encode($data));
-    };
-};
+
+
 $app = new \Slim\App($container);
 
 // Set up dependencies

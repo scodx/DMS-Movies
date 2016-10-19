@@ -17,3 +17,22 @@ $container['logger'] = function ($c) {
     $logger->pushHandler(new Monolog\Handler\StreamHandler($settings['path'], $settings['level']));
     return $logger;
 };
+
+
+$container['errorHandler'] = function ($container) {
+    return function ($request, $response, $exception) use ($container) {
+        //Format of exception to return
+        $data = [
+            'message' => $exception->getMessage()
+        ];
+        return $container->get('response')->withStatus(500)
+            ->withHeader('Content-Type', 'application/json')
+            ->write(json_encode($data));
+    };
+};
+
+
+
+$container['db'] = function ($container) {
+    return new DMS\DB( $container->get('settings')['db_config'] );
+};
